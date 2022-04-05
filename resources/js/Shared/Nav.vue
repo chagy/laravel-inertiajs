@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <ul class="list-disc">
+        <ul class="flex space-x-6">
             <li>
                 <NavLink href="/" :active="$page.component == 'Home'">
                     Home
